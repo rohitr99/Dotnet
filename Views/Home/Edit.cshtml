@@ -1,0 +1,19 @@
+﻿@using EmployeePortal.BOL;
+@using BLL;
+@using System.Collections.Generic;
+@{
+    ViewData["Title"] = "Insert ";
+}
+
+@{
+    @* Employee e = CatalogManager.GetEmployeeById(@id); *@
+}
+<div>
+    <form method="post">
+        <label>Id <input type="number" name="id" /></label>
+        <label>Name <input type="text" name="Name" /></label>
+        <label>Salary <input type="number" name="Salary" /></label>
+        <label>Gender <input type="text" name="Gender" /></label>
+        <input type="submit" name="btn" />
+    </form>
+</div>
